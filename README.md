@@ -19,7 +19,7 @@ Or if your wiki is already using an `importArticles` statement you can add the f
 
 `'u:shining-armor:MediaWiki:ChatTags/code.js',`
 
-Additionally, if you would like to enable the image or youtube tag you will need to add the following line __ABOVE_ the script import.
+Additionally, if you would like to enable the image or youtube tag you will need to add the following line __ABOVE__ the script import.
 
 `var chatags = { images: true, videos: true };`
 
@@ -59,7 +59,7 @@ __Tags must end in the order that they start__
     *__Note: Leave the http:// off of the link__
     * `[img <image>]`
 * Youtube
-    * __Note__: `www.youtube.com/watch?v=__uQzGxQxn84Y__`
+    * __Note__: `www.youtube.com/watch?v=`**uQzGxQxn84Y**
     * `[yt <video ID>]`
 
 # Developers
